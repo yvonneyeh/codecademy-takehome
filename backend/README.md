@@ -26,7 +26,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 
 ### Rules and requirements:
 
--   All valid codewords are chosen from [this dictionary of English words](https://github.com/Codecademy/internship-code-challenge/blob/master/nouns.txt) 
+-   All valid codewords are chosen from [this dictionary of English words](https://github.com/Codecademy/internship-code-challenge/blob/master/backend/nouns.txt) 
 -   The codeword is represented by a series of dashes, one per letter in the codeword
 -   The codeword is chosen randomly at the start of the game
 -   Each game starts with the person at the bottom of the beam. Upon guessing a letter that does not exist in the codeword, the person is lifted one row.
