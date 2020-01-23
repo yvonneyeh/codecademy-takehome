@@ -1,4 +1,4 @@
-# 2019 Codecademy Internship Code Challenge (Backend Software Engineer)
+# 2020 Codecademy Internship Code Challenge (Backend Software Engineer)
 
   ## UFO: The Game
 ```
