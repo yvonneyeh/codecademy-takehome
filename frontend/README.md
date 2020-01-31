@@ -48,7 +48,7 @@ Your code will allow the user to take each of those `quizzes` in order.
    - A ‘Next’ button at the bottom of the component
    - Either _'Correct!'_ or _'Incorrect...'_ above that button, with the correct answer outlined in green, and the incorrect answer (if any) outlined in red with a ~~strikethrough~~ over its text
 
-3. After all questions have been answered correctly, display a friendly summary screen that lists:
+3. After all questions have been answered, display a friendly summary screen that lists:
    - How many questions were in the quiz
    - How many of those questions were answered correctly
    - A button to move to the next quiz (or the first quiz, if they just took the last)
