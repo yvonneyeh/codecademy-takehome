@@ -59,7 +59,7 @@ Your code will allow the user to take each of those `quizzes` in order.
 ### Delighters
 
 In addition to the base requirements, we'll need you to pick and complete _one_ of the following "delighter" fun features.
-We do mean _one_: completing additional features will _not_ gain you points!
+We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
 
 - A: Display a progress bar on the bottom of the component. It should fill in with green from the left for the percentage of questions correctly answered, then red for the percentage of questions answered incorrectly, then white for the remaining not-yet-answered questions.
 - B: After all questions have been answered, any questions that were answered incorrectly should be asked again, in their original order, repeating until all answers are answered correctly. The summary screen should say how many questions were answered correctly on the first try.
