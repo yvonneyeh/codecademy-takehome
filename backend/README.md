@@ -59,7 +59,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 In addition to the base requirements, we'll need you to pick and complete _one_ of the following "delighter" fun features.
 We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.	We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
 
-- A: add more tests!
+- A: Add more tests!
 - B: Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
 
 ```
