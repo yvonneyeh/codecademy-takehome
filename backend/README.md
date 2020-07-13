@@ -53,7 +53,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - The game plays as described in the Rules and requirements section above.
 - Code is well-organized and easy to read/understand.
 - Any algorithms or data structures used are appropriate and reasonably efficient.
-- You must write one unit test for the logic that determines whether or not a guess is correct.
+- You must write two unit tests: a) one for when the user guesses a correct letter and b) one for when the user guesses an incorrect letter.
 
 ### Bonus
 
