@@ -4,7 +4,10 @@
 Thanks for taking the time to work on a backend takehome assignment.
 We really appreciate you applying to work at Codecademy!
 
-This README.md details the prompt for your assignment.
+This README.md details the prompt for your assignment. Rest assured, we won't use the code for anything other than as part of your application.
+
+You can see the competencies we'll be grading it on here. We expect this to take you roughly 2-3 hours. Please let us know if there's anything unclear about it!
+
 Rest assured, we won't use the code for anything other than as part of your application.
 
 ## UFO: The Game
@@ -45,12 +48,12 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - The game should identify whether a guess was correct or not
 - The game should display the current state of abduction by the UFO. Snippets of code that represent each state of UFO abduction have been provided in a few popular languages for your convenience.
 
-### How you will be evaluated
+### Feature Requirements
 
-- Requirements are all met. The game plays as described in the Rules and requirements section above.
+- The game plays as described in the Rules and requirements section above.
 - Code is well-organized and easy to read/understand.
 - Any algorithms or data structures used are appropriate and reasonably efficient.
-- Unit tests are written to determine that code is correct.
+- You must write one unit test that asserts that guessing an incorrect letter lifts the person one row closer to the UFO.
 
 ### Bonus
 
