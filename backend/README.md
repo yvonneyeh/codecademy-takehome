@@ -34,7 +34,7 @@ Invaders from outer space have arrived and are abducting humans using tractor be
 
 Guess one letter at a time of a codeword represented by blank placeholders for each letter. If the letter does not exist in the codeword, the person is pulled in closer to the UFO by the tractor beam. If the letter exists, the blanks that correspond to the position of those letters in the codeword are replaced by the letter. If all the letters of the codeword are revealed before the person is pulled into the UFO, you win. Otherwise, the UFO abducts the person and you lose.
 
-### Rules and requirements:
+### Game Rules:
 
 - All valid codewords are chosen from [this dictionary of English words](https://github.com/Codecademy/internship-code-challenge/blob/master/backend/nouns.txt)
 - The codeword is represented by a series of dashes, one per letter in the codeword
@@ -53,7 +53,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - The game plays as described in the Rules and requirements section above.
 - Code is well-organized and easy to read/understand.
 - Any algorithms or data structures used are appropriate and reasonably efficient.
-- You must write one unit test that asserts that guessing an incorrect letter lifts the person one row closer to the UFO.
+- You must write one unit test for the logic that determines whether or not a guess is correct.
 
 ### Bonus
 
