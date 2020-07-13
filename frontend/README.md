@@ -52,7 +52,7 @@ Your code will allow the user to take each of those `quizzes` in order.
    - How many questions were in the quiz
    - How many of those questions were answered correctly
    - A button to move to the next quiz (or the first quiz, if they just took the last)
-   - A random encouragement message _(use `getMessage` from `src/messages.js`)_.
+   - A random encouragement message _(use `getMessage` from `src/data/messages.js`)_.
 
 ### Delighters
 
