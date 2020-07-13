@@ -64,5 +64,6 @@ We do mean _one_: completing additional features will _not_ gain you points! Ple
 
 - A: In addition to the "Next" button after taking a quiz, display the number of times the quiz has been taken along with a "Retake" button.
 - B: In addition to the summary showing the number of questions correct after taking a quiz, display a list of the quiz's questions with the user's selected answer and whether it was correct beside each question.
+- C: Add more tests!
 
 See `./mockups/delighters/*.png` for rough descriptions of what A and B would look like.
