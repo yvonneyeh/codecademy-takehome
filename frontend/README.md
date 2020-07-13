@@ -22,13 +22,13 @@ Hooray! 🎉
 
 See `./mockups/*.png` for rough descriptions of what it should look like.
 
-> Don't bother getting your page exactly like our mockups -- just match the general layout. We're not interested in pixel perfect formatting.
+> Don't bother getting your page exactly like our mockups -- just match the general layout.
 
 ### What You're Given
 
 Your application code should live in the `src/` directory. We've set it up to work with React, though you're welcome to add other libraries if you need.
 
-In the `src/quizzes.js` file, we've exported for you a set of `quizzes`, each of which contains the following data:
+In the `data/quizzes.js` file, we've exported for you a set of `quizzes`, each of which contains the following data:
 
 - `title`: A human-readable display text title for the quiz
 
@@ -41,14 +41,12 @@ In the `src/quizzes.js` file, we've exported for you a set of `quizzes`, each of
 
 Your code will allow the user to take each of those `quizzes` in order.
 
-1. Create a `MultipleChoiceQuiz` component that takes in a quiz as a prop, displays its title on top of the page, and displays a single question’s text and randomly ordered answers, starting with the first question.
+1. For a current quiz, display its title on top of the page, along with a single question’s text and randomly ordered answers -- starting with the first question.
 
 2. When a question’s answer is clicked, it should show:
 
    - A ‘Next’ button at the bottom of the component
-   - Either _'Correct!'_ or _'Incorrect...'_ above that button
-   - The correct answer outlined in green
-   - If the user didn't select the correct answer, the incorrect answer outlined in red with a ~~strikethrough~~ through its text
+   - Either _'Correct!'_ or _'Incorrect...'_ above that button, with the correct answer outlined in green, and the incorrect answer (if any) outlined in red with a ~~strikethrough~~ over its text
 
 3. After all questions have been answered, display a friendly summary screen that lists:
    - How many questions were in the quiz
@@ -61,8 +59,7 @@ Your code will allow the user to take each of those `quizzes` in order.
 In addition to the base requirements, we'll need you to pick and complete _one_ of the following "delighter" fun features.
 We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
 
-- A: Display a progress bar on the bottom of the component. It should fill in with green from the left for the percentage of questions correctly answered, then red for the percentage of questions answered incorrectly, then white for the remaining not-yet-answered questions.
-- B: After all questions have been answered, any questions that were answered incorrectly should be asked again, in their original order, repeating until all answers are answered correctly. The summary screen should say how many questions were answered correctly on the first try.
-- C: Animate from one question to another with some kind of animation.
+- A: In addition to the "Next" button after taking a quiz, display the number of times the quiz has been taken along with a "Retake" button.
+- B: In addition to the summary showing the number of questions correct after taking a quiz, display a list of the quiz's questions with the user's selected answer and whether it was correct beside each question.
 
 See `./mockups/delighters/*.png` for rough descriptions of what A and B would look like.
