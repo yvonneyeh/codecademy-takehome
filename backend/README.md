@@ -55,9 +55,12 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - Any algorithms or data structures used are appropriate and reasonably efficient.
 - You must write two unit tests: a) one for when the user guesses a correct letter and b) one for when the user guesses an incorrect letter.
 
-### Bonus
+### Delighters
+In addition to the base requirements, we'll need you to pick and complete _one_ of the following "delighter" fun features.
+We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.	We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
 
-- Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
+- A: add more tests!
+- B: Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
 
 ```
 Incorrect guesses: D
