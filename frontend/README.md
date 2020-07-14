@@ -45,7 +45,7 @@ Your code will allow the user to take each of those `quizzes` in order.
 
 2. When a question’s answer is clicked, it should show:
 
-   - A ‘Next’ button at the bottom of the component
+   - A ‘Next’ button at the bottom of the page
    - Either _'Correct!'_ or _'Incorrect...'_ above that button, with the correct answer outlined in green, and the incorrect answer (if any) outlined in red with a ~~strikethrough~~ over its text
 
 3. After all questions have been answered, display a friendly summary screen that lists:
