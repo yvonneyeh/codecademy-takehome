@@ -48,7 +48,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - The game should identify whether a guess was correct or not
 - The game should display the current state of abduction by the UFO. Snippets of code that represent each state of UFO abduction have been provided in a few popular languages for your convenience.
 
-### Feature Requirements
+### How you will be evaluated
 
 - The game plays as described in the Rules and requirements section above.
 - Code is well-organized and easy to read/understand.
