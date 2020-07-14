@@ -4,7 +4,7 @@
 Thanks for taking the time to work on a backend takehome assignment.
 We really appreciate you applying to work at Codecademy!
 
-This README.md details the prompt for your assignment. Rest assured, we won't use the code for anything other than as part of your application.
+This README.md details the prompt for your assignment.
 
 You can see the competencies we'll be grading it on [here](https://github.com/Codecademy/engineering-competencies/blob/master/interviews/backend-takehome.md). We expect this to take you roughly 2-3 hours. Please let us know if there's anything unclear about it!
 
@@ -57,7 +57,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 
 ### Delighters
 In addition to the base requirements, we'll need you to pick and complete _one_ of the following "delighter" fun features.
-We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.	We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
+We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
 
 - A: Add more tests!
 - B: Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
