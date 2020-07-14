@@ -55,7 +55,9 @@ Your code will allow the user to take each of those `quizzes` in order.
    - A button to move to the next quiz (or the first quiz, if they just took the last)
    - A random encouragement message _(use `getMessage` from `src/data/messages.js`)_.
 
-4. You must write two unit tests: a) one for when a user selects the correct answer and b) one for when the user selects the incorrect answer.
+4. You must write two unit tests: 
+   - one for when a user selects the correct answer 
+   - one for when the user selects the incorrect answer
 
 ### Delighters
 
