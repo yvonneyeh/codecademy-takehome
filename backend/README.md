@@ -61,7 +61,7 @@ In addition to the base requirements, we'll need you to pick and complete _one_ 
 We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
 
 - A: Add more tests!
-- B: Show a random encouraging message when the user guesses an incorrect letter. Optional messages can be found in `data/messages.json`.
+- B: Show a random encouraging message when the user guesses an incorrect letter. Optional messages can be found in `data/messages.txt`.
 - C: Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
 
 ```
