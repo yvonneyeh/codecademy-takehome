@@ -28,7 +28,7 @@ See `./mockups/*.png` for rough descriptions of what it should look like.
 
 Your application code should live in the `src/` directory. We've set it up to work with React, though you're welcome to add other libraries if you need.
 
-In the `data/quizzes.js` file, we've exported for you a set of `quizzes`, each of which contains the following data:
+In the `src/data/quizzes.js` file, we've exported for you a set of `quizzes`, each of which contains the following data:
 
 - `title`: A human-readable display text title for the quiz
 
@@ -55,8 +55,8 @@ Your code will allow the user to take each of those `quizzes` in order.
    - A button to move to the next quiz (or the first quiz, if they just took the last)
    - A random encouragement message _(use `getMessage` from `src/data/messages.js`)_.
 
-4. You must write two unit tests: 
-   - one for when a user selects the correct answer 
+4. You must write two unit tests:
+   - one for when a user selects the correct answer
    - one for when the user selects the incorrect answer
 
 ### Delighters
