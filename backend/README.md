@@ -36,7 +36,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 
 ### Game Rules:
 
-- All valid codewords are chosen from [this dictionary of English words](https://github.com/Codecademy/internship-code-challenge/blob/master/backend/nouns.txt)
+- All valid codewords are chosen from [this dictionary of English words](https://github.com/Codecademy/internship-code-challenge/blob/master/backend/data/nouns.txt)
 - The codeword is represented by a series of dashes, one per letter in the codeword
 - The codeword is chosen randomly at the start of the game
 - Each game starts with the person at the bottom of the beam. Upon guessing a letter that does not exist in the codeword, the person is lifted one row.
@@ -46,7 +46,7 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - You win when all the dashes in the codeword have been replaced by your correct guesses
 - The game should read user input on the command line and allow the user to start a new game after completing one.
 - The game should identify whether a guess was correct or not
-- The game should display the current state of abduction by the UFO. Snippets of code that represent each state of UFO abduction have been provided in a few popular languages for your convenience.
+- The game should display the current state of abduction by the UFO. Snippets of code that represent each state of UFO abduction have been provided in a few popular languages for your convenience in the `data/` folder.
 
 ### How you will be evaluated
 
@@ -56,11 +56,13 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - You must write two unit tests: a) one for when the user guesses a correct letter and b) one for when the user guesses an incorrect letter.
 
 ### Delighters
+
 In addition to the base requirements, we'll need you to pick and complete _one_ of the following "delighter" fun features.
 We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
 
 - A: Add more tests!
-- B: Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
+- B: Show a random encouraging message when the user guesses an incorrect letter. Optional messages can be found in `data/messages.txt`.
+- C: Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
 
 ```
 Incorrect guesses: D
