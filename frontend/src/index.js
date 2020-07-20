@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { quizzes } from './quizzes';
 import './styles.css';
-
-console.log('Here are the quizzes:', quizzes);
 
 const App = () => {
   return (
