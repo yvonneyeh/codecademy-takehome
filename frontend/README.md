@@ -1,4 +1,4 @@
-# 2020 Codecademy Internship Code Challenge (Frontend Software Engineer)
+# 2020 Codecademy Apprenticeship Code Challenge (Frontend Software Engineer)
 
 👋 Hi there!
 Thanks for taking the time to work on a frontend takehome assignment.
