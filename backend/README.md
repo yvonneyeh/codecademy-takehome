@@ -1,4 +1,4 @@
-# 2020 Codecademy Internship Code Challenge (Backend Software Engineer)
+# 2020 Codecademy Apprenticeship Code Challenge (Backend Software Engineer)
 
 👋 Hi there!
 Thanks for taking the time to work on a backend takehome assignment.
