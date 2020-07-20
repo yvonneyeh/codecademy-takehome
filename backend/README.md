@@ -5,6 +5,9 @@ Thanks for taking the time to work on a backend takehome assignment.
 We really appreciate you applying to work at Codecademy!
 
 This README.md details the prompt for your assignment.
+
+You can see the competencies we'll be grading it on [here](https://github.com/Codecademy/engineering-competencies/blob/master/interviews/backend-takehome.md). We expect this to take you roughly 2-3 hours. Please let us know if there's anything unclear about it!
+
 Rest assured, we won't use the code for anything other than as part of your application.
 
 ## UFO: The Game
@@ -31,9 +34,9 @@ Invaders from outer space have arrived and are abducting humans using tractor be
 
 Guess one letter at a time of a codeword represented by blank placeholders for each letter. If the letter does not exist in the codeword, the person is pulled in closer to the UFO by the tractor beam. If the letter exists, the blanks that correspond to the position of those letters in the codeword are replaced by the letter. If all the letters of the codeword are revealed before the person is pulled into the UFO, you win. Otherwise, the UFO abducts the person and you lose.
 
-### Rules and requirements:
+### Game Rules:
 
-- All valid codewords are chosen from [this dictionary of English words](https://github.com/Codecademy/internship-code-challenge/blob/master/backend/nouns.txt)
+- All valid codewords are chosen from [this dictionary of English words](https://github.com/Codecademy/internship-code-challenge/blob/master/backend/data/nouns.txt)
 - The codeword is represented by a series of dashes, one per letter in the codeword
 - The codeword is chosen randomly at the start of the game
 - Each game starts with the person at the bottom of the beam. Upon guessing a letter that does not exist in the codeword, the person is lifted one row.
@@ -43,18 +46,23 @@ Guess one letter at a time of a codeword represented by blank placeholders for e
 - You win when all the dashes in the codeword have been replaced by your correct guesses
 - The game should read user input on the command line and allow the user to start a new game after completing one.
 - The game should identify whether a guess was correct or not
-- The game should display the current state of abduction by the UFO. Snippets of code that represent each state of UFO abduction have been provided in a few popular languages for your convenience.
+- The game should display the current state of abduction by the UFO. Snippets of code that represent each state of UFO abduction have been provided in a few popular languages for your convenience in the `data/` folder.
 
 ### How you will be evaluated
 
-- Requirements are all met. The game plays as described in the Rules and requirements section above.
+- The game plays as described in the Rules and requirements section above.
 - Code is well-organized and easy to read/understand.
 - Any algorithms or data structures used are appropriate and reasonably efficient.
-- Unit tests are written to determine that code is correct.
+- You must write two unit tests: a) one for when the user guesses a correct letter and b) one for when the user guesses an incorrect letter.
 
-### Bonus
+### Delighters
 
-- Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
+In addition to the base requirements, we'll need you to pick and complete _one_ of the following "delighter" fun features.
+We do mean _one_: completing additional features will _not_ gain you points! Please only complete _one_.
+
+- A: Add more tests!
+- B: Show a random encouraging message when the user guesses an incorrect letter. Optional messages can be found in `data/messages.txt`.
+- C: Display how many words in the provided dictionary are potentially correct codewords given the correct and incorrect letter guesses made so far. For example, suppose the game was in this state:
 
 ```
 Incorrect guesses: D
