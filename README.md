@@ -1,4 +1,4 @@
-# 2020 Codecademy Internship Code Challenge
+# 2020 Codecademy Apprenticeship Code Challenge
 
-- [Code challenge for _backend engineer_ internship candidates](./backend)
-- [Code challenge for _frontend engineer_ internship candidates](./frontend)
+- [Code challenge for _backend engineer_ apprenticeship candidates](./backend)
+- [Code challenge for _frontend engineer_ apprenticeship candidates](./frontend)
