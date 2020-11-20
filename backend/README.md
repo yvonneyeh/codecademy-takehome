@@ -6,7 +6,7 @@ We really appreciate you applying to work at Codecademy!
 
 This README.md details the prompt for your assignment.
 
-You can see the competencies we'll be grading it on [here](https://github.com/Codecademy/engineering-competencies/blob/master/interviews/backend-takehome.md). We expect this to take you roughly 2-3 hours. Please let us know if there's anything unclear about it!
+You can see the competencies we'll be grading it on [here](https://github.com/Codecademy/engineering-competencies/blob/master/interviews/backend-takehome.md). On average it takes candidates around 5 hours to complete this challenge, but no worries if it takes you longer. We’ve had successful candidates report taking more than ten hours to complete the requirements. Please let us know if there's anything unclear about it!
 
 Rest assured, we won't use the code for anything other than as part of your application.
 
